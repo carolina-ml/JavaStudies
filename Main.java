@@ -17,6 +17,8 @@ le tudo
 se (falso & verdadeiro)
 ele pula o primeiro falso e vai pro próximo bloco de código 
 
+operador ++ incremento -- 
+se pré ele faz o uso do incremento
 */
 
 public class Main{
@@ -29,3 +31,23 @@ public class Main{
 System.out.println("Name: " + name +"\nyears_old: "+ years_old +"\nSalary: "+ salary +"\nmarried: "+ married);    
     }
 } 
+
+int contador = 0 
+
+for(in contador = 0; contador < 10;++contador){
+    System.out.println(
+        contador
+    );
+}
+
+while(contador <= 10) {
+    System.out.println(contador);
+    contador = contador + 1;
+}
+
+do {
+    System.out.println(contador);
+    contador =  contador + 1;
+}while(contador  <=10);
+
+ }

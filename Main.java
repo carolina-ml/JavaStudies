@@ -19,7 +19,7 @@ ele pula o primeiro falso e vai pro próximo bloco de código
 
 operador ++ incremento -- 
 se pré ele faz o uso do incremento
-*/
+
 
 public class Main{
     public static void main(String[] args){
@@ -51,3 +51,24 @@ do {
 }while(contador  <=10);
 
  }
+ /* código abaixo não está funcionando como esperado. De acordo com suas entradas, o resultado esperado era que na saída fosse exibido “Resultado dentro do esperado”, porém não é o que está acontecendo. Analise o código abaixo e, caso necessário, faça as correções necessárias para que ele funcione como esperado.
+ */
+///O retorno do método somar precisa ser int E o If precisa ser ==
+
+public class TempApplication {
+   public static void main(String[] args) {
+       int var1 = 10, var2 = 20;
+ 
+       int resultado = somar(var1, var2);
+ 
+       if(resultado == 30) {
+           System.out.println("Resultado dentro do esperado!");
+       } else {
+           System.out.println("Resultado fora do esperado!");
+       }
+   }
+/*Sempre declarar o tipo */ 
+   private static string somar(int num1, int num2) {
+       return num1 + num2;
+   }
+}
